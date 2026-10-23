@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Love Letter</title>
+    <meta name="description" content="Для моей любимой ♡" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Love Letter" />
+    <meta property="og:description" content="Для моей любимой ♡" />
+    <meta
+      property="og:url"
+      content="https://grinderek.github.io/for-my-beloved/"
+    />
+    <meta
+      property="og:image"
+      content="https://grinderek.github.io/for-my-beloved/love-letter-preview.png"
+    />
+    <meta
+      property="og:image:secure_url"
+      content="https://grinderek.github.io/for-my-beloved/love-letter-preview.png"
+    />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:image:alt"
+      content="Love Letter - конверт для моей любимой"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Love Letter" />
+    <meta name="twitter:description" content="Для моей любимой ♡" />
+    <meta
+      name="twitter:image"
+      content="https://grinderek.github.io/for-my-beloved/love-letter-preview.png"
+    />
+    <meta name="theme-color" content="#efe7d9" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <section id="cover" class="cover">
+        <h1>Зай,<br />это тебе</h1>
+        <p class="intro">
+          Просто захотелось еще раз сказать<br />кое-что важное
+        </p>
+        <div class="envelope-wrap">
+          <div class="envelope" id="envelope">
+            <div class="back"></div>
+            <button class="letter-tab" id="pull" tabindex="-1">
+              Для моей любимой ♡<small>потяни вверх или нажми</small>
+            </button>
+            <div class="pocket"></div>
+            <div class="flap"></div>
+            <button
+              id="seal"
+              class="seal"
+              aria-label="Снять печать и открыть конверт"
+            >
+              Л<span>♡</span>Д
+            </button>
+          </div>
+        </div>
+        <p class="handwritten aside">немного покодил для тебя ♡</p>
+      </section>
+      <section id="inside" hidden>
+        <div class="section-top">
+          <p class="eyebrow">НЕСКОЛЬКО ЗАПИСОК ПРО НАС</p>
+          <h1>Все это -<br /><em>про любовь</em></h1>
+          <p>Наши маленькие истории<br />И то, что еще впереди</p>
+        </div>
+        <div class="notes" id="notes">
+          <article class="note rose centered">
+            <span class="tape"></span
+            ><span class="note-title">«Где романтика?»</span
+            ><span class="burger-heart" aria-label="Сердечко из бургеров"
+              >🍔 🍔<br />🍔 🍔 🍔<br />🍔 🍔<br />🍔</span
+            ><span class="note-foot">кажется, я кое-что задолжал</span>
+          </article>
+          <article class="note cream">
+            <span class="tape"></span><small>НАША КЛАССИКА</small
+            ><span class="note-title">Одежду купили.<br />Карты потеряли.</span
+            ><span class="drawing">♡</span
+            ><span class="note-foot">есть вещи, которые я берегу лучше</span>
+          </article>
+          <article class="note blue centered">
+            <span class="tape"></span
+            ><span class="note-title">«Ты жестко кодил…»</span
+            ><span class="drawing">&lt;♡&gt;</span
+            ><span class="note-foot">в этот раз - чтобы ты улыбнулась</span>
+          </article>
+          <article class="note sand">
+            <span class="tape"></span><small>ВПЕРЕДИ У НАС</small
+            ><span class="note-title">Фукуок.<br />Море.<br />Ты рядом.</span
+            ><span class="drawing">☀</span
+            ><span class="note-foot">эту записку еще будем дописывать</span>
+          </article>
+        </div>
+        <article class="love-letter">
+          <p class="eyebrow">А ТЕПЕРЬ САМОЕ ВАЖНОЕ</p>
+          <h2>Я люблю тебя,<br /><em>зайчик</em></h2>
+          <p>
+            Мы уже вместе. Но мне хочется, чтобы ты и сегодня улыбнулась, читая
+            это.
+          </p>
+          <p>
+            Я люблю наше «как ты?», наши разговоры, наши шутки, которые понятны
+            только нам. Люблю строить с тобой планы и знать, что впереди у нас
+            еще столько всего.
+          </p>
+          <p>
+            Хочу, чтобы ты рассказывала мне все, чем хочется поделиться. Хочу
+            смеяться с тобой, скучать по тебе и радоваться каждой нашей встрече.
+            И между всем этим просто обнимать тебя.
+          </p>
+          <p>
+            Ты мне очень нужна. И мне очень хорошо от того, что мы есть друг у
+            друга.
+          </p>
+          <p class="signature">Твой бусик ♡</p>
+        </article>
+        <section class="invite">
+          <div id="invitation">
+            <h2>Пойдем<br /><em>на свидание?</em></h2>
+            <p>Хочу еще один вечер с тобой.<br />Выбери, как его проведем.</p>
+            <div class="choices">
+              <button data-choice="Ужин в Dialoghi" aria-pressed="false">
+                Ужин в Dialoghi ↗</button
+              ><button data-choice="Imperial Orchestra" aria-pressed="false">
+                Imperial Orchestra ↗
+              </button>
+            </div>
+            <button id="yes" class="primary" disabled>
+              Выбери наш вечер ♡
+            </button>
+          </div>
+          <div id="accepted" hidden aria-live="polite">
+            <h3>У нас свидание ♡</h3>
+            <p id="plan"></p>
+            <p>Уже жду тебя</p>
+            <a id="reply" class="primary" target="_blank" rel="noopener"
+              >Написать мне ♡</a
+            >
+          </div>
+        </section>
+        <footer>Люблю тебя ♡</footer>
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>

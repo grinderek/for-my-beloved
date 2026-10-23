@@ -1,0 +1,14 @@
+node_modules/
+/dist/
+/github-pages/
+/Лизе.html
+/.openai/
+/reference-notes.html
+/style.css
+/script.js
+/paper.webp
+/bg.jpeg
+/preview-card.html
+/*.cjs
+*.tar.gz
+/.local-history/
